@@ -1,0 +1,11 @@
+dockerizar rabbitMQ
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-management
+
+listar colas y mensajes
+rabbitmqctl list_queues
+
+entrar a condenedor en codespaces
+docker exec -it C.id bash
+
+guia: https://www.rabbitmq.com/tutorials/tutorial-one-go
+
