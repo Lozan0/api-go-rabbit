@@ -1,8 +1,0 @@
-{
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"features": {
-		"ghcr.io/frntn/devcontainers-features/postman:1": {},
-		"ghcr.io/itsmechlark/features/postgresql:1": {},
-		"ghcr.io/itsmechlark/features/rabbitmq-server:1": {}
-	}
-}
